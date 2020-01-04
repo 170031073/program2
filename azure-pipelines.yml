@@ -10,7 +10,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      javac AddTwontegers.java
+      javac AddTwoNumbers.java
       
-      java AddTwoIntegers
-
+      java AddTwoNumbers
